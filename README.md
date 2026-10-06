@@ -1,24 +1,31 @@
 # Human Wellbeing – Year 9 Geography
 
-An **independent classroom teaching resource** for Year 9 Geography.
+This repository now contains a **single-file, dependency-free teaching website**.
 
-The website is designed so a teacher can open a topic and **read the explanation aloud directly to the class**. It does not refer to PowerPoint slides in the teaching interface.
+## Why it is reliable
 
-## Included
+The entire site is contained in `index.html`:
 
-- 36 detailed teaching topics across six modules
-- Read-aloud explanations in clear classroom language
-- Key terms and definitions
-- Examples and cause-and-effect explanations
-- Topic-specific student activities
-- Six self-check quizzes with instant feedback
-- Teacher mode with:
-  - learning intentions
-  - success criteria
-  - starters
-  - low-literacy scaffolds
-  - mini-plenaries
-- Authoritative external resources and current-data updates
+- no npm
+- no build process
+- no external CSS or JavaScript files
+- no framework
+- no module loading
+- no database
+
+The page works as a normal static HTML file and can also be served through GitHub Pages.
+
+## Classroom content
+
+The resource contains:
+
+- 6 teaching modules
+- 36 detailed read-aloud teaching topics
+- key terminology for every topic
+- 36 classroom activities
+- 36 checks for learning with expandable answers
+- learning intentions, success criteria and suggested lesson flow
+- authoritative external links for Beyond Blue, UNDP, OECD, UN SDGs, World Bank and ABS
 
 ## Modules
 
@@ -26,32 +33,28 @@ The website is designed so a teacher can open a topic and **read the explanation
 2. Regional Disparities
 3. Measuring Human Wellbeing
 4. Sustainable Development
-5. Poverty, Disadvantage & NGOs
-6. Population Pyramids & Wellbeing
+5. Poverty, Disadvantage and NGOs
+6. Population Pyramids and Wellbeing
 
-## Design approach
+## Open it directly
 
-The interface uses an original calm blue/teal card-based pattern inspired by accessible contemporary wellbeing education sites. It uses simple icon-led navigation and readable content blocks. **No Beyond Blue logo, artwork or proprietary brand assets are copied.**
+Download `index.html` and open it in Chrome, Edge, Safari or Firefox. It does not require internet access for the teaching content. Internet is only needed if you choose to open an external resource link.
 
-## Authoritative resources
+## Publish with GitHub Pages
 
-- Beyond Blue – https://www.beyondblue.org.au/mental-health/wellbeing
-- UNDP Human Development Index – https://hdr.undp.org/data-center/human-development-index
-- OECD Well-being Data Monitor – https://www.oecd.org/en/data/tools/well-being-data-monitor.html
-- United Nations Sustainable Development Goals – https://sdgs.un.org/goals
-- World Bank poverty lines – https://www.worldbank.org/en/news/factsheet/2025/06/05/june-2025-update-to-global-poverty-lines
-- Australian Bureau of Statistics population pyramid – https://www.abs.gov.au/statistics/people/population/population-clock-pyramid
+One-time setup:
 
-## Run locally
+1. Open **Settings**
+2. Open **Pages**
+3. Under **Build and deployment**, choose **Deploy from a branch**
+4. Branch: **main**
+5. Folder: **/ (root)**
+6. Save
 
-Open `index.html` in a browser, or run:
+The site should then publish at:
 
-```bash
-python -m http.server 8000
-```
+`https://fahadhossainfrg-create.github.io/Human-Wellbeing/`
 
-then open `http://localhost:8000`.
+## Design
 
-## GitHub Pages
-
-In the repository, open **Settings → Pages**, choose **Deploy from a branch**, then select **main** and **/(root)**.
+The page uses an original blue/teal, icon-led card layout inspired by accessible contemporary wellbeing education websites. No Beyond Blue logo, artwork or proprietary brand assets are copied.
