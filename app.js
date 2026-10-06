@@ -160,10 +160,12 @@ function openSlide(num){
       <p>${escapeHTML(s.external.note)}</p>
       <a href="${s.external.url}" target="_blank" rel="noopener">Open official source ↗</a>
     </section>`:"";
-  const original=(s.originalText||[]).length ? `<section class="content-card original-source">
-      <h3>What the original slide contains</h3>
-      <ul class="source-lines">${s.originalText.map(t=>`<li>${escapeHTML(t)}</li>`).join("")}</ul>
-      ${(s.originalLinks||[]).length?`<div class="original-links">${s.originalLinks.map((u,i)=>`<a href="${u}" target="_blank" rel="noopener">Original slide link ${i+1} ↗</a>`).join("")}</div>`:""}
+  const hasOriginalText=(s.originalText||[]).length;
+  const hasOriginalLinks=(s.originalLinks||[]).length;
+  const original=(hasOriginalText||hasOriginalLinks) ? `<section class="content-card original-source">
+      <h3>Original slide source${hasOriginalLinks ? " / links" : ""}</h3>
+      ${hasOriginalText ? `<ul class="source-lines">${s.originalText.map(t=>`<li>${escapeHTML(t)}</li>`).join("")}</ul>` : `<p>This slide contains an external link in the original PowerPoint.</p>`}
+      ${hasOriginalLinks?`<div class="original-links">${s.originalLinks.map((u,i)=>`<a href="${u}" target="_blank" rel="noopener">Original slide link ${i+1} ↗</a>`).join("")}</div>`:""}
     </section>`:"";
   const view=qs("#slideView");
   view.innerHTML=`
