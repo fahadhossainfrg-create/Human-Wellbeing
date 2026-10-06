@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Year 9 Geography Human Wellbeing teaching companion with 84 slide explanations, activities, quizzes and teacher tools.">
+  <title>Human Wellbeing – Year 9 Geography</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">♥</div>
+      <div>
+        <div class="eyebrow">YEAR 9 GEOGRAPHY</div>
+        <h1>Human Wellbeing</h1>
+        <p>Explain • explore • compare • evaluate</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <label class="teacher-toggle">
+        <input id="teacherMode" type="checkbox">
+        <span>Teacher mode</span>
+      </label>
+      <button id="printBtn" class="ghost-btn" type="button">Print</button>
+    </div>
+  </header>
+
+  <div class="wave-band" aria-hidden="true">
+    <span></span><span></span><span></span>
+  </div>
+
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Unit navigation">
+      <button id="homeBtn" class="nav-home active" type="button">⌂ Unit overview</button>
+      <div class="search-wrap">
+        <label for="slideSearch">Search slides</label>
+        <input id="slideSearch" type="search" placeholder="e.g. HDI, poverty, income">
+      </div>
+      <nav id="moduleNav"></nav>
+      <div class="sidebar-note">
+        <strong>Source approach</strong>
+        <p>The original PowerPoint wording is preserved. External updates are clearly marked so students can separate the class source from newer evidence.</p>
+      </div>
+    </aside>
+
+    <main id="main" class="main-content" tabindex="-1">
+      <section id="homeView" class="view"></section>
+      <section id="slideView" class="view hidden" aria-live="polite"></section>
+      <section id="activityView" class="view hidden"></section>
+      <section id="sourcesView" class="view hidden"></section>
+    </main>
+  </div>
+
+  <footer>
+    <div>
+      <strong>Human Wellbeing teaching companion</strong>
+      <span>Built for classroom teaching from the supplied 84-slide PowerPoint.</span>
+    </div>
+    <div class="footer-links">
+      <button id="sourcesBtn" type="button">Sources & updates</button>
+      <a href="https://www.beyondblue.org.au/mental-health/wellbeing" target="_blank" rel="noopener">Beyond Blue wellbeing</a>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="modules/wellbeing.js"></script>
+  <script src="modules/disparities.js"></script>
+  <script src="modules/measurement.js"></script>
+  <script src="modules/sustainable.js"></script>
+  <script src="modules/poverty.js"></script>
+  <script src="modules/population.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
