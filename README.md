@@ -1,65 +1,57 @@
 # Human Wellbeing – Year 9 Geography
 
-A classroom-ready teaching companion built from the supplied **84-slide Human Wellbeing PowerPoint**.
+An **independent classroom teaching resource** for Year 9 Geography.
 
-## What is included
+The website is designed so a teacher can open a topic and **read the explanation aloud directly to the class**. It does not refer to PowerPoint slides in the teaching interface.
 
-- Detailed explanation for **all 84 slides**
-- PowerPoint slide sequence and terminology preserved, with original slide links retained where available
-- Key-term cards
-- Slide-specific class prompts and activities
-- Six interactive module quizzes:
-  1. Human wellbeing factors
-  2. Regional disparities
-  3. Human Development Index
-  4. Sustainable Development Goals
-  5. Absolute vs relative poverty
-  6. Population pyramids and policy
+## Included
+
+- 36 detailed teaching topics across six modules
+- Read-aloud explanations in clear classroom language
+- Key terms and definitions
+- Examples and cause-and-effect explanations
+- Topic-specific student activities
+- Six self-check quizzes with instant feedback
 - Teacher mode with:
   - learning intentions
   - success criteria
-  - starter activities
-  - low-literacy support
+  - starters
+  - low-literacy scaffolds
   - mini-plenaries
-- External official resources and clearly labelled 2026 updates
+- Authoritative external resources and current-data updates
 
-## Design
+## Modules
 
-The website uses an original calm blue/teal card-based layout inspired by the accessible structure of modern wellbeing education websites such as Beyond Blue. **No Beyond Blue logo, artwork, illustrations or proprietary brand assets are copied.**
+1. Understanding Human Wellbeing
+2. Regional Disparities
+3. Measuring Human Wellbeing
+4. Sustainable Development
+5. Poverty, Disadvantage & NGOs
+6. Population Pyramids & Wellbeing
 
-## External sources used
+## Design approach
 
-- Beyond Blue – Mental wellbeing: https://www.beyondblue.org.au/mental-health/wellbeing
-- UNDP – Human Development Index: https://hdr.undp.org/data-center/human-development-index
-- OECD – Well-being Data Monitor: https://www.oecd.org/en/data/tools/well-being-data-monitor.html
-- United Nations – Sustainable Development Goals: https://sdgs.un.org/goals
-- World Bank – 2025 poverty-line update: https://www.worldbank.org/en/news/factsheet/2025/06/05/june-2025-update-to-global-poverty-lines
-- Australian Bureau of Statistics – Population clock and pyramid: https://www.abs.gov.au/statistics/people/population/population-clock-pyramid
+The interface uses an original calm blue/teal card-based pattern inspired by accessible contemporary wellbeing education sites. It uses simple icon-led navigation and readable content blocks. **No Beyond Blue logo, artwork or proprietary brand assets are copied.**
+
+## Authoritative resources
+
+- Beyond Blue – https://www.beyondblue.org.au/mental-health/wellbeing
+- UNDP Human Development Index – https://hdr.undp.org/data-center/human-development-index
+- OECD Well-being Data Monitor – https://www.oecd.org/en/data/tools/well-being-data-monitor.html
+- United Nations Sustainable Development Goals – https://sdgs.un.org/goals
+- World Bank poverty lines – https://www.worldbank.org/en/news/factsheet/2025/06/05/june-2025-update-to-global-poverty-lines
+- Australian Bureau of Statistics population pyramid – https://www.abs.gov.au/statistics/people/population/population-clock-pyramid
 
 ## Run locally
 
-Open `index.html` in a browser. No build step is required.
-
-For the most reliable local experience:
+Open `index.html` in a browser, or run:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then open `http://localhost:8000`.
+then open `http://localhost:8000`.
 
-## Publish with GitHub Pages
+## GitHub Pages
 
-1. Open the repository on GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select the `main` branch and `/ (root)`.
-5. Save.
-
-The published address will normally be:
-
-`https://fahadhossainfrg-create.github.io/Human-Wellbeing/`
-
-## Source-content rule
-
-The supplied PowerPoint remains the primary classroom source. External information is marked as an **External resource / update** and does not silently replace the slide content.
+In the repository, open **Settings → Pages**, choose **Deploy from a branch**, then select **main** and **/(root)**.
