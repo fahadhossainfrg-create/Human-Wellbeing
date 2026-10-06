@@ -5,7 +5,7 @@ A classroom-ready teaching companion built from the supplied **84-slide Human We
 ## What is included
 
 - Detailed explanation for **all 84 slides**
-- Original slide text kept visible for source transparency
+- PowerPoint slide sequence and terminology preserved, with original slide links retained where available
 - Key-term cards
 - Slide-specific class prompts and activities
 - Six interactive module quizzes:
@@ -15,7 +15,12 @@ A classroom-ready teaching companion built from the supplied **84-slide Human We
   4. Sustainable Development Goals
   5. Absolute vs relative poverty
   6. Population pyramids and policy
-- Teacher mode with learning intentions, success criteria, starter activities, low-literacy support and mini-plenaries
+- Teacher mode with:
+  - learning intentions
+  - success criteria
+  - starter activities
+  - low-literacy support
+  - mini-plenaries
 - External official resources and clearly labelled 2026 updates
 
 ## Design
